@@ -166,16 +166,16 @@ Follow Docker official documentation for more information.
 
 [Dockerfile Documentation](https://docs.docker.com/engine/reference/builder/)
 
-1. The ENV directive
-2. The ARG directive
-3. The WORKDIR directive
-4. The COPY directive
-5. The ADD directive
-6. The USER directive
-7. The VOLUME directive
-8. The EXPOSE directive
-9. The HEALTHCHECK directive
-10. The ONBUILD directive
+1. The **ENV** directive
+2. The **ARG** directive
+3. The **WORKDIR** directive
+4. The **COPY** directive
+5. The **ADD** directive
+6. The **USER** directive
+7. The **VOLUME** directive
+8. The **EXPOSE** directive
+9. The **HEALTHCHECK** directive
+10. The **ONBUILD** directive
 
 ## Exersise 2: Dockerize a .Net Core Console Application
 
