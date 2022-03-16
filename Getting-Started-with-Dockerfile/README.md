@@ -149,10 +149,38 @@ The above Dockerfile is based on the Ubuntu parent image. The LABEL directive is
 After creating the Dockerfile, we can build the Docker image using the **docker build** command.
 
 ```
-docker image build <context>
+docker image build -t imagename:tag <context>
 ```
 If the Dockerfile is located in the current directory, we can simply use the **docker build** command.
 
 ```
-docker image build .
+docker image build -t ubuntu:updated .
 ```
+![docker-build-output](./images/docker-build-output.png)
+
+## Other Dockerfile Directives
+
+Following are the other directives that can be used in a Dockerfile.
+
+Follow Docker official documentation for more information.
+
+[Dockerfile Documentation](https://docs.docker.com/engine/reference/builder/)
+
+1. The ENV directive
+2. The ARG directive
+3. The WORKDIR directive
+4. The COPY directive
+5. The ADD directive
+6. The USER directive
+7. The VOLUME directive
+8. The EXPOSE directive
+9. The HEALTHCHECK directive
+10. The ONBUILD directive
+
+## Exersise 2: Dockerize a .Net Core Console Application
+
+To take on the hands on experience building a Docker image, we will be building a simple .Net Core console application.
+
+Follow followin Microsoft documentation for more information.
+
+[Build .Net Core Dockerize Application](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=linux)
