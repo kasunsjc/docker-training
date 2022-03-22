@@ -152,11 +152,9 @@ Once logged in to the database, return a list of databases in Postgres by defaul
 
 Running the Postgresql server container with the following command.
 
-    ```
     docker container run -d --name postgres01 -e POSTGRES_USER=root -e POSTGRES_PASSWORD=trekking postgres:12
 
     docker exec -it postgres01 psql -U root  --password
-    ```
 
 Expected output:
 
