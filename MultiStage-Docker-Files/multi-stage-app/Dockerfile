@@ -4,6 +4,7 @@ FROM golang:latest AS builder
 WORKDIR /myapp
 # Copy source file from current directory to container
 COPY helloworld.go .
+RUN go env -w GO111MODULE=off
 # Build the application
 RUN go build -o helloworld .
 # Start from latest alpine parent image
