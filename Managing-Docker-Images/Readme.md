@@ -43,7 +43,7 @@ docker image inscpect <ImageName|ImageID>
 
 ## Storing and Publishing Your Docker Images
 
-These days, team may look to store production images in a cloud-based registry solution such as Azure Container Registry, Amazon Elastic Container Registry, Google Container Registry, or, as you'll see later in this chapter, another option would be to set up a local registry.
+These days, team may look to store production images in a cloud-based registry solution such as Azure Container Registry, Amazon Elastic Container Registry, Google Container Registry, or another option would be to set up a local registry.
 
 
 Before we push images to repository we need to create a Docker registry. You can create a account on Docker Hub or any other registry.
